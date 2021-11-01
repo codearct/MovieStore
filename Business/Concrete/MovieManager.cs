@@ -17,6 +17,7 @@ using Core.CrossCuttingConcerns.Validation.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.Business;
 using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Transaction;
 
 namespace Business.Concrete
 {
@@ -33,6 +34,7 @@ namespace Business.Concrete
 
         [ValidationAspect(typeof(AddMovieModelValidator))]
         [CacheRemoveAspect("IMovieService.Get")]
+        [TransactionScopeAspect]
         public IResult Add(AddMovieModel model)
         {
 
@@ -53,6 +55,7 @@ namespace Business.Concrete
         }
 
         [CacheRemoveAspect("IMovieService.Get")]
+        [TransactionScopeAspect]
         public IResult Delete(int id)
         {
             var movie = _movieDal.Get(m => m.Id == id);
@@ -107,6 +110,7 @@ namespace Business.Concrete
 
         [ValidationAspect(typeof(UpdateMovieModelValidator))]
         [CacheRemoveAspect("IMovieService.Get")]
+        [TransactionScopeAspect]
         public IResult Update(int id, UpdateMovieModel model)
         {
             var movie = _movieDal.Get(m => m.Id == id);
