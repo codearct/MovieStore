@@ -2,7 +2,9 @@ using AutoMapper;
 using Business.Abstract;
 using Business.Concrete;
 using Business.Mapper;
+using Core.DependencyResolvers;
 using Core.Extensions.Middlewares;
+using Core.Extensions.ServiceCollection;
 using Core.Utilities.IoC;
 using Core.Utilities.Security.Encryption;
 using Core.Utilities.Security.JWT;
@@ -46,10 +48,10 @@ namespace WebAPI
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieStore", Version = "v1" });
             });
 
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            
 
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
@@ -67,7 +69,10 @@ namespace WebAPI
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
                 });
-            ServiceTool.Create(services);
+
+            services.AddDependencyResolvers(new ICoreModule[] {
+                new CoreModule()
+            });
 
             //services.AddSingleton<IMapper>(new Mapper(new MapperConfiguration(cfg =>
             //{
@@ -84,8 +89,12 @@ namespace WebAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
+                app.UseSwaggerUI(c =>{
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MovieStore v1");
+                });
+                    
             }
 
             app.UseHttpsRedirection();
