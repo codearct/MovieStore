@@ -16,6 +16,7 @@ using Business.ValidationRules.FluentValidation.MovieValidator;
 using Core.CrossCuttingConcerns.Validation.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.Business;
+using Core.Aspects.Autofac.Caching;
 
 namespace Business.Concrete
 {
@@ -31,6 +32,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(AddMovieModelValidator))]
+        [CacheRemoveAspect("IMovieService.Get")]
         public IResult Add(AddMovieModel model)
         {
 
@@ -50,6 +52,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.MovieAdded);
         }
 
+        [CacheRemoveAspect("IMovieService.Get")]
         public IResult Delete(int id)
         {
             var movie = _movieDal.Get(m => m.Id == id);
@@ -65,6 +68,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.DeletedMovie);
         }
 
+        [CacheAspect]
         public IDataResult<List<MovieViewModel>> GetAll()
         {
             var movies = _movieDal.GetAll();
@@ -74,6 +78,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<MovieViewModel>>(movieVMs);
         }
 
+        [CacheAspect]
         public IDataResult<MovieViewModel> GetById(int id)
         {
             var movie = _movieDal.Get(m=>m.Id==id);
@@ -87,6 +92,7 @@ namespace Business.Concrete
 
             return new SuccessDataResult<MovieViewModel>(movieVM);
         }
+        [CacheAspect]
         public IDataResult<Movie> Get(int id)
         {
             var movie = _movieDal.Get(id);
@@ -100,6 +106,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(UpdateMovieModelValidator))]
+        [CacheRemoveAspect("IMovieService.Get")]
         public IResult Update(int id, UpdateMovieModel model)
         {
             var movie = _movieDal.Get(m => m.Id == id);
