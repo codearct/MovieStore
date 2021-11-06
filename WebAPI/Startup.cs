@@ -74,6 +74,8 @@ namespace WebAPI
                 new CoreModule()
             });
 
+            
+
             //services.AddSingleton<IMapper>(new Mapper(new MapperConfiguration(cfg =>
             //{
             //    cfg.AddProfile<MappingProfile>();

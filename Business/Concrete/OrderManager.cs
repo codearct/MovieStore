@@ -86,6 +86,7 @@ namespace Business.Concrete
 
             return new SuccessDataResult<List<OrderByCustomerViewModel>>(orderVMs);
         }
+        [SecuredOperation("admin")]
         public IDataResult<List<Order>> GetAllOrdersByCustomerId(int customerId)
         {
 

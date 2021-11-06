@@ -15,3 +15,6 @@ D:\MovieStore\DataAccess\obj\Debug\net5.0\DataAccess.dll
 D:\MovieStore\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
 D:\MovieStore\DataAccess\obj\Debug\net5.0\DataAccess.pdb
 D:\MovieStore\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\MovieStore\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+D:\MovieStore\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+D:\MovieStore\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache

@@ -84,7 +84,7 @@ namespace Business.Concrete
         [CacheAspect]
         public IDataResult<MovieViewModel> GetById(int id)
         {
-            var movie = _movieDal.Get(m=>m.Id==id);
+            var movie = _movieDal.GetById(id);
 
             if (movie is null)
             {
@@ -98,7 +98,7 @@ namespace Business.Concrete
         [CacheAspect]
         public IDataResult<Movie> Get(int id)
         {
-            var movie = _movieDal.Get(id);
+            var movie = _movieDal.Get(m=>m.Id==id && m.IsActive==true);
 
             if (movie is null)
             {
@@ -113,7 +113,7 @@ namespace Business.Concrete
         [TransactionScopeAspect]
         public IResult Update(int id, UpdateMovieModel model)
         {
-            var movie = _movieDal.Get(m => m.Id == id);
+            var movie = _movieDal.GetById(id);
 
             IResult result = BusinessRules.Run(CheckIfMovieIsNotExist(movie));
             if (result!=null)

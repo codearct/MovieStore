@@ -80,3 +80,14 @@ D:\MovieStore\ConsoleUI\bin\Debug\net5.0\JetBrains.Annotations.dll
 D:\MovieStore\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
 D:\MovieStore\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 D:\MovieStore\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.Caching.Redis.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\StackExchange.Redis.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\StackExchange.Redis.StrongName.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\MovieStore\ConsoleUI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll

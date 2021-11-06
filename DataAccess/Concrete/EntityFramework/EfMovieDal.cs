@@ -25,6 +25,7 @@ namespace DataAccess.Concrete.EntityFramework
                     .Include(m => m.Director)
                     .Include(m => m.Performers)
                         .ThenInclude(mp => mp.Performer)
+                    .Where(m=>m.IsActive==true)
                     .OrderBy(m => m.Id)
                     .ToList();
 
@@ -32,7 +33,7 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public Movie Get(int id)
+        public Movie GetById(int id)
         {
             using (MovieStoreDbContext context = new MovieStoreDbContext())
             {
@@ -41,7 +42,7 @@ namespace DataAccess.Concrete.EntityFramework
                     .Include(m => m.Director)
                     .Include(m => m.Performers)
                         .ThenInclude(mp => mp.Performer)
-                    .SingleOrDefault(m => m.Id == id);
+                    .SingleOrDefault(m => m.Id == id && m.IsActive==true);
 
                 return movie;
             }

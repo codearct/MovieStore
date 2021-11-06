@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj": {}
+    "d:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "D:\\MovieStore\\Business\\Business.csproj": {
+    "d:\\MovieStore\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\Business\\Business.csproj",
+        "projectUniqueName": "d:\\MovieStore\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\MovieStore\\Business\\Business.csproj",
+        "projectPath": "d:\\MovieStore\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\Business\\obj\\",
+        "outputPath": "d:\\MovieStore\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MovieStore\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\MovieStore\\DataAccess\\DataAccess.csproj"
+              "d:\\MovieStore\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "d:\\MovieStore\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\MovieStore\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\MovieStore\\Entities\\Entities.csproj"
+              "d:\\MovieStore\\Entities\\Entities.csproj": {
+                "projectPath": "d:\\MovieStore\\Entities\\Entities.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "D:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj": {
+    "d:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "d:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "D:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "d:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\ConsoleUI\\obj\\",
+        "outputPath": "d:\\MovieStore\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,11 +123,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MovieStore\\Business\\Business.csproj": {
-                "projectPath": "D:\\MovieStore\\Business\\Business.csproj"
+              "d:\\MovieStore\\Business\\Business.csproj": {
+                "projectPath": "d:\\MovieStore\\Business\\Business.csproj"
               },
-              "D:\\MovieStore\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\MovieStore\\DataAccess\\DataAccess.csproj"
+              "d:\\MovieStore\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "d:\\MovieStore\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -166,14 +166,14 @@
         }
       }
     },
-    "D:\\MovieStore\\Core\\Core.csproj": {
+    "d:\\MovieStore\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\Core\\Core.csproj",
+        "projectUniqueName": "d:\\MovieStore\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\MovieStore\\Core\\Core.csproj",
+        "projectPath": "d:\\MovieStore\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\Core\\obj\\",
+        "outputPath": "d:\\MovieStore\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -234,9 +234,17 @@
               "target": "Package",
               "version": "[5.0.9, )"
             },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "ServiceStack.Redis": {
+              "target": "Package",
+              "version": "[5.12.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -262,14 +270,14 @@
         }
       }
     },
-    "D:\\MovieStore\\DataAccess\\DataAccess.csproj": {
+    "d:\\MovieStore\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "d:\\MovieStore\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\MovieStore\\DataAccess\\DataAccess.csproj",
+        "projectPath": "d:\\MovieStore\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\DataAccess\\obj\\",
+        "outputPath": "d:\\MovieStore\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -286,11 +294,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MovieStore\\Core\\Core.csproj": {
-                "projectPath": "D:\\MovieStore\\Core\\Core.csproj"
+              "d:\\MovieStore\\Core\\Core.csproj": {
+                "projectPath": "d:\\MovieStore\\Core\\Core.csproj"
               },
-              "D:\\MovieStore\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\MovieStore\\Entities\\Entities.csproj"
+              "d:\\MovieStore\\Entities\\Entities.csproj": {
+                "projectPath": "d:\\MovieStore\\Entities\\Entities.csproj"
               }
             }
           }
@@ -308,6 +316,12 @@
             "JetBrains.Annotations": {
               "target": "Package",
               "version": "[2021.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -333,14 +347,14 @@
         }
       }
     },
-    "D:\\MovieStore\\Entities\\Entities.csproj": {
+    "d:\\MovieStore\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\Entities\\Entities.csproj",
+        "projectUniqueName": "d:\\MovieStore\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\MovieStore\\Entities\\Entities.csproj",
+        "projectPath": "d:\\MovieStore\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\Entities\\obj\\",
+        "outputPath": "d:\\MovieStore\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -357,8 +371,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MovieStore\\Core\\Core.csproj": {
-                "projectPath": "D:\\MovieStore\\Core\\Core.csproj"
+              "d:\\MovieStore\\Core\\Core.csproj": {
+                "projectPath": "d:\\MovieStore\\Core\\Core.csproj"
               }
             }
           }
@@ -376,6 +390,12 @@
             "JetBrains.Annotations": {
               "target": "Package",
               "version": "[2021.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
             }
           },
           "imports": [

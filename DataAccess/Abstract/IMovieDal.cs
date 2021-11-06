@@ -13,6 +13,6 @@ namespace DataAccess.Abstract
     public interface IMovieDal:IEntityRepository<Movie>
     {
         List<Movie> GetAll();
-        Movie Get(int id);
+        Movie GetById(int id);
     }
 }

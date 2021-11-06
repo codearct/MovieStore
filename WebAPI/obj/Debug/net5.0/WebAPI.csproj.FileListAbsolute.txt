@@ -74,3 +74,10 @@ D:\MovieStore\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 D:\MovieStore\WebAPI\bin\Debug\net5.0\FluentValidation.dll
 D:\MovieStore\WebAPI\bin\Debug\net5.0\JetBrains.Annotations.dll
 D:\MovieStore\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\MovieStore\WebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MovieStore\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Caching.Redis.dll
+D:\MovieStore\WebAPI\bin\Debug\net5.0\ServiceStack.Common.dll
+D:\MovieStore\WebAPI\bin\Debug\net5.0\ServiceStack.Interfaces.dll
+D:\MovieStore\WebAPI\bin\Debug\net5.0\ServiceStack.Redis.dll
+D:\MovieStore\WebAPI\bin\Debug\net5.0\ServiceStack.Text.dll
+D:\MovieStore\WebAPI\bin\Debug\net5.0\StackExchange.Redis.StrongName.dll
