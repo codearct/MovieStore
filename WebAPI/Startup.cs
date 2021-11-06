@@ -24,6 +24,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text.Json.Serialization;
@@ -48,10 +49,35 @@ namespace WebAPI
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieStore", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "MovieStore",
+                    Description = "PatikaDev dersinin ödevi olan film kiralama projesidir.",
+                    Version = "v1",
+                });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Lütfen token giriniz",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.Http,
+                    BearerFormat = "JWT",
+                    Scheme = "bearer"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement{
+                    {
+                        new OpenApiSecurityScheme{
+                            Reference=new OpenApiReference{
+                                Type=ReferenceType.SecurityScheme,
+                                Id="Bearer"
+                            }
+                        },
+                        new string[]{}
+                    }
+                });
             });
 
-            
+
 
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
@@ -74,7 +100,7 @@ namespace WebAPI
                 new CoreModule()
             });
 
-            
+
 
             //services.AddSingleton<IMapper>(new Mapper(new MapperConfiguration(cfg =>
             //{
@@ -93,10 +119,11 @@ namespace WebAPI
                 app.UseDeveloperExceptionPage();
 
                 app.UseSwagger();
-                app.UseSwaggerUI(c =>{
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MovieStore v1");
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MovieStore");
                 });
-                    
+
             }
 
             app.UseHttpsRedirection();
