@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9E16An9UJFNPCQFBtCbVQ6S1HHtAWE96+gMYJVBAjBJO2QzLHZiIPmYsijxQflioIpkNd3BAhT0uZUcZfhj6tA==",
+  "dgSpecHash": "iU+xX2ck3YppZMo/UG9sQ6GfFcTkw3vynVfzm0o4W9APos140/FVHW9SZnSmty67lC6/mPY/yBOPUYNm20PYXQ==",
   "success": true,
-  "projectFilePath": "D:\\MovieStore\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "D:\\MovieStore\\BackEnd\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Akif\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\Akif\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

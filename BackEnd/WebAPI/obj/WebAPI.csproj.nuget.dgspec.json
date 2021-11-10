@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MovieStore\\WebAPI\\WebAPI.csproj": {}
+    "D:\\MovieStore\\BackEnd\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\MovieStore\\Business\\Business.csproj": {
+    "D:\\MovieStore\\BackEnd\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\MovieStore\\BackEnd\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\MovieStore\\Business\\Business.csproj",
+        "projectPath": "D:\\MovieStore\\BackEnd\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\Business\\obj\\",
+        "outputPath": "D:\\MovieStore\\BackEnd\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MovieStore\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\MovieStore\\DataAccess\\DataAccess.csproj"
+              "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\MovieStore\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\MovieStore\\Entities\\Entities.csproj"
+              "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "D:\\MovieStore\\Core\\Core.csproj": {
+    "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\MovieStore\\Core\\Core.csproj",
+        "projectPath": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\Core\\obj\\",
+        "outputPath": "D:\\MovieStore\\BackEnd\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -219,14 +219,14 @@
         }
       }
     },
-    "D:\\MovieStore\\DataAccess\\DataAccess.csproj": {
+    "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\MovieStore\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\DataAccess\\obj\\",
+        "outputPath": "D:\\MovieStore\\BackEnd\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -243,11 +243,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MovieStore\\Core\\Core.csproj": {
-                "projectPath": "D:\\MovieStore\\Core\\Core.csproj"
+              "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {
+                "projectPath": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj"
               },
-              "D:\\MovieStore\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\MovieStore\\Entities\\Entities.csproj"
+              "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj"
               }
             }
           }
@@ -296,14 +296,14 @@
         }
       }
     },
-    "D:\\MovieStore\\Entities\\Entities.csproj": {
+    "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\MovieStore\\Entities\\Entities.csproj",
+        "projectPath": "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\Entities\\obj\\",
+        "outputPath": "D:\\MovieStore\\BackEnd\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -320,8 +320,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MovieStore\\Core\\Core.csproj": {
-                "projectPath": "D:\\MovieStore\\Core\\Core.csproj"
+              "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {
+                "projectPath": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj"
               }
             }
           }
@@ -366,14 +366,14 @@
         }
       }
     },
-    "D:\\MovieStore\\WebAPI\\WebAPI.csproj": {
+    "D:\\MovieStore\\BackEnd\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "D:\\MovieStore\\BackEnd\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "D:\\MovieStore\\WebAPI\\WebAPI.csproj",
+        "projectPath": "D:\\MovieStore\\BackEnd\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\WebAPI\\obj\\",
+        "outputPath": "D:\\MovieStore\\BackEnd\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -390,17 +390,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MovieStore\\Business\\Business.csproj": {
-                "projectPath": "D:\\MovieStore\\Business\\Business.csproj"
+              "D:\\MovieStore\\BackEnd\\Business\\Business.csproj": {
+                "projectPath": "D:\\MovieStore\\BackEnd\\Business\\Business.csproj"
               },
-              "D:\\MovieStore\\Core\\Core.csproj": {
-                "projectPath": "D:\\MovieStore\\Core\\Core.csproj"
+              "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {
+                "projectPath": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj"
               },
-              "D:\\MovieStore\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\MovieStore\\DataAccess\\DataAccess.csproj"
+              "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\MovieStore\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\MovieStore\\Entities\\Entities.csproj"
+              "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GvB96NhWlR3sGIR9+roVrWzFkWTCRO+H1qXZP2MoKb2Er5bbTngDrvGvTPMw8DPuGZp4QQ93ikBgjPbrKml8dg==",
+  "dgSpecHash": "e0f6hX/NetnarnCuLP1KQ1DoXvxq+iV9s+eqVQbNbZw9ZBVvuNZYljvg0itxUHrT7jj40JwiZe3G839IR6UcFQ==",
   "success": true,
-  "projectFilePath": "D:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "D:\\MovieStore\\BackEnd\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Akif\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\Akif\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

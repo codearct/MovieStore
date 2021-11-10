@@ -46,8 +46,9 @@ namespace WebAPI
         {
 
             services.AddControllers();
+            services.AddCors();
 
-            var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+            /*var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
@@ -62,7 +63,7 @@ namespace WebAPI
                         ValidateIssuerSigningKey = true,
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
-                });
+                });*/
 
             services.AddDependencyResolvers(new ICoreModule[] {
                 new CoreModule()
@@ -93,6 +94,7 @@ namespace WebAPI
                 });
 
             }
+            app.UseCors(builder => builder.WithOrigins("http://localhost:3000").AllowAnyHeader());
 
             app.UseHttpsRedirection();
 

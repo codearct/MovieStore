@@ -10,6 +10,7 @@ namespace Entities.ViewModel
 {
     public class MovieViewModel:IViewModel
     {
+        public int id { get; set; }
         public string Title { get; set; }
         public int Price { get; set; }
         public string ReleaseDate { get; set; }

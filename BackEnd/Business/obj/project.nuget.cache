@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vdtfv4lWakKR3RenGgJ2Qh1eXkgEzFDTOhvNjSIJQOmLLqwtbnZwzt5FuJ3yunXkmbvp449HyQxgtRrAGm545A==",
+  "dgSpecHash": "ZSQTWsp3KMApgDIxuLZTa8JeFGYz21tqCKeNFaPTm5CaDGxEz93NIj8Z0XdVC+Ld1ZwJ7il8fyAH9t9Fo1pdJg==",
   "success": true,
-  "projectFilePath": "D:\\MovieStore\\Business\\Business.csproj",
+  "projectFilePath": "D:\\MovieStore\\BackEnd\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Akif\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\Akif\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

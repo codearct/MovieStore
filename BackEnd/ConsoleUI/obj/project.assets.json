@@ -9095,11 +9095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "D:\\MovieStore\\BackEnd\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "D:\\MovieStore\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "D:\\MovieStore\\BackEnd\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-      "outputPath": "D:\\MovieStore\\ConsoleUI\\obj\\",
+      "outputPath": "D:\\MovieStore\\BackEnd\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9116,11 +9116,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MovieStore\\Business\\Business.csproj": {
-              "projectPath": "D:\\MovieStore\\Business\\Business.csproj"
+            "D:\\MovieStore\\BackEnd\\Business\\Business.csproj": {
+              "projectPath": "D:\\MovieStore\\BackEnd\\Business\\Business.csproj"
             },
-            "D:\\MovieStore\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\MovieStore\\DataAccess\\DataAccess.csproj"
+            "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj"
             }
           }
         }

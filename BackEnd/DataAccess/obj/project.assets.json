@@ -9050,11 +9050,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MovieStore\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\MovieStore\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-      "outputPath": "D:\\MovieStore\\DataAccess\\obj\\",
+      "outputPath": "D:\\MovieStore\\BackEnd\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9071,11 +9071,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MovieStore\\Core\\Core.csproj": {
-              "projectPath": "D:\\MovieStore\\Core\\Core.csproj"
+            "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {
+              "projectPath": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj"
             },
-            "D:\\MovieStore\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\MovieStore\\Entities\\Entities.csproj"
+            "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj"
             }
           }
         }
