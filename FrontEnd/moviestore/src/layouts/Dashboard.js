@@ -2,6 +2,9 @@ import React from 'react';
 import Categories from './Categories';
 import MovieList from '../pages/MovieList';
 import { Grid } from 'semantic-ui-react';
+import { Route, Routes } from 'react-router';
+import MovieDetail from '../pages/MovieDetail';
+import OrderDetail from '../pages/OrderDetail';
 
 export default function Dashboard() {
     return (
@@ -12,7 +15,12 @@ export default function Dashboard() {
                         <Categories />
                     </Grid.Column>
                     <Grid.Column width={12}>
-                        <MovieList />
+                        <Routes>
+                            <Route exact path="/" element={<MovieList />} />
+                            <Route path="/movies" element={<MovieList />} />
+                            <Route path="/movies/:id" element={<MovieDetail />} />
+                            <Route path="/orders" element={<OrderDetail />} />
+                        </Routes>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>

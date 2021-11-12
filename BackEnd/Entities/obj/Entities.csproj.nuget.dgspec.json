@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj": {}
+    "D:\\MovieStore\\backend\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {
+    "D:\\MovieStore\\backend\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\MovieStore\\backend\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj",
+        "projectPath": "D:\\MovieStore\\backend\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\BackEnd\\Core\\obj\\",
+        "outputPath": "D:\\MovieStore\\backend\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,14 +124,14 @@
         }
       }
     },
-    "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj": {
+    "D:\\MovieStore\\backend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\MovieStore\\backend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj",
+        "projectPath": "D:\\MovieStore\\backend\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\BackEnd\\Entities\\obj\\",
+        "outputPath": "D:\\MovieStore\\backend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,8 +148,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {
-                "projectPath": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj"
+              "D:\\MovieStore\\backend\\Core\\Core.csproj": {
+                "projectPath": "D:\\MovieStore\\backend\\Core\\Core.csproj"
               }
             }
           }

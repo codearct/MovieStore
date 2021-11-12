@@ -9103,11 +9103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MovieStore\\BackEnd\\webapi\\WebAPI.csproj",
+      "projectUniqueName": "D:\\MovieStore\\backend\\webapi\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\MovieStore\\BackEnd\\webapi\\WebAPI.csproj",
+      "projectPath": "D:\\MovieStore\\backend\\webapi\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-      "outputPath": "D:\\MovieStore\\BackEnd\\webapi\\obj\\",
+      "outputPath": "D:\\MovieStore\\backend\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9124,17 +9124,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MovieStore\\BackEnd\\Business\\Business.csproj": {
-              "projectPath": "D:\\MovieStore\\BackEnd\\Business\\Business.csproj"
+            "D:\\MovieStore\\backend\\Business\\Business.csproj": {
+              "projectPath": "D:\\MovieStore\\backend\\Business\\Business.csproj"
             },
-            "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {
-              "projectPath": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj"
+            "D:\\MovieStore\\backend\\Core\\Core.csproj": {
+              "projectPath": "D:\\MovieStore\\backend\\Core\\Core.csproj"
             },
-            "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj"
+            "D:\\MovieStore\\backend\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\MovieStore\\backend\\DataAccess\\DataAccess.csproj"
             },
-            "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\MovieStore\\BackEnd\\Entities\\Entities.csproj"
+            "D:\\MovieStore\\backend\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\MovieStore\\backend\\Entities\\Entities.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xBua7KMg7cJzFup2ax/vDafoI5lxQffPARAfugk7tGaPwQL0shYLkApR+HiZzFJmKFP7xnCdFy95bJiRnoOexw==",
+  "dgSpecHash": "7jt7vpZUnL7vRwF/I+TRQeeNUKCMMYzQts+26jOqBcJBEKRW83PWbT2B2Aenpk0fgGzNb+1xf2PbbUgxvUeryA==",
   "success": true,
-  "projectFilePath": "D:\\MovieStore\\BackEnd\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "D:\\MovieStore\\backend\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Akif\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\Akif\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
