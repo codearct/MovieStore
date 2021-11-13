@@ -5,10 +5,12 @@ import { Grid } from 'semantic-ui-react';
 import { Route, Routes } from 'react-router';
 import MovieDetail from '../pages/MovieDetail';
 import OrderDetail from '../pages/OrderDetail';
+import { ToastContainer } from 'react-toastify';
 
 export default function Dashboard() {
     return (
         <div>
+            <ToastContainer position="bottom-center" />
             <Grid>
                 <Grid.Row>
                     <Grid.Column width={4}>

@@ -1,10 +1,15 @@
 import React from 'react';
 import { useState, useEffect } from "react";
-import { Card, Image } from 'semantic-ui-react';
+import { Card, Image, Button } from 'semantic-ui-react';
 import MovieService from '../services/movieService';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { addToCart } from "../store/actions/cartActions";
+import { toast } from 'react-toastify';
 
 export default function MovieList() {
+
+    const dispatch = useDispatch()
 
     const [movies, setMovies] = useState([]);
 
@@ -14,19 +19,27 @@ export default function MovieList() {
             .then(result => setMovies(result.data))
     }, [])
 
+    const handleAddToCart = (movie) => {
+        dispatch(addToCart(movie))
+        toast.success(`${movie.title} sepete eklendi!`)
+    }
+
     return (
         <div>
             <Card.Group itemsPerRow={4}>
                 {
                     movies.map(movie => (
-                        <Card key={movie.id} as={NavLink} to={`/movies/${movie.id}`}>
+                        <Card key={movie.id} >
                             <Image src={`https://picsum.photos/id/${movie.id}/100`} wrapped ui={false} />
                             <Card.Content>
-                                <Card.Header>{movie.title}</Card.Header>
-                                <Card.Meta>{movie.releaseDate}</Card.Meta>
-                                <Card.Description>
-                                    movie description_?
-                                </Card.Description>
+                                <Card.Header>
+                                    <Link to={`/movies/${movie.id}`}>{movie.title}</Link>
+                                </Card.Header>
+                            </Card.Content>
+                            <Card.Content>
+                                <Button onClick={() => handleAddToCart(movie)} negative fluid>
+                                    Sepete Ekle
+                                </Button>
                             </Card.Content>
                         </Card>
                     ))
