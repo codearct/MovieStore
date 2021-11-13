@@ -4,11 +4,11 @@ import { Dropdown } from 'semantic-ui-react';
 
 export default function CartSummary() {
     return (
-        <Dropdown item text='Sepet'>
+        <Dropdown item text='Sepetiniz' fluid>
             <Dropdown.Menu>
-                <Dropdown.Item>Movie1</Dropdown.Item>
-                <Dropdown.Item>movie2</Dropdown.Item>
-                <Dropdown.Item>movie3</Dropdown.Item>
+                <Dropdown.Item>Pulp Fiction</Dropdown.Item>
+                <Dropdown.Item>Catch Me If You Can</Dropdown.Item>
+                <Dropdown.Item>Fight Club</Dropdown.Item>
                 <Dropdown.Divider />
                 <Dropdown.Item as={NavLink} to={"/orders"}>Sepete Git</Dropdown.Item>
             </Dropdown.Menu>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MovieStore\\backend\\Core\\Core.csproj": {}
+    "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {}
   },
   "projects": {
-    "D:\\MovieStore\\backend\\Core\\Core.csproj": {
+    "D:\\MovieStore\\BackEnd\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MovieStore\\backend\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\MovieStore\\backend\\Core\\Core.csproj",
+        "projectPath": "D:\\MovieStore\\BackEnd\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\MovieStore\\backend\\Core\\obj\\",
+        "outputPath": "D:\\MovieStore\\BackEnd\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
